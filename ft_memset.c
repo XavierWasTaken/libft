@@ -6,7 +6,7 @@
 /*   By: pda-roch <pda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 13:38:39 by pda-roch          #+#    #+#             */
-/*   Updated: 2024/05/16 18:18:41 by pda-roch         ###   ########.fr       */
+/*   Updated: 2024/05/17 18:18:42 by pda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-/*
-int	main(void)
-{
-	char *str = NULL;
-	char c = 'c';
-	size_t n = 10;
-	printf("str before memset:%s\n", str);
-	ft_memset(str,c,n);
-	printf("str after memset:%s\n", str);
-}
-*/

@@ -6,13 +6,13 @@
 /*   By: pda-roch <pda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 23:34:08 by pda-roch          #+#    #+#             */
-/*   Updated: 2024/05/17 16:16:40 by pda-roch         ###   ########.fr       */
+/*   Updated: 2024/05/17 17:52:45 by pda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	**free_array(char **arr)
+static char	**free_array(char **arr)
 {
 	int	i;
 
@@ -26,7 +26,7 @@ char	**free_array(char **arr)
 	return (NULL);
 }
 
-size_t	ft_count_words(char const *s, char c)
+static size_t	ft_count_words(char const *s, char c)
 {
 	size_t	num_words;
 	int		i;
@@ -47,7 +47,7 @@ size_t	ft_count_words(char const *s, char c)
 	return (num_words);
 }
 
-size_t	word_len(char const *s, int i, char c)
+static size_t	word_len(char const *s, int i, char c)
 {
 	size_t	length;
 	int		j;
@@ -62,7 +62,7 @@ size_t	word_len(char const *s, int i, char c)
 	return (length + 1);
 }
 
-char	*make_word(char const *s, int i, char c)
+static char	*make_word(char const *s, int i, char c)
 {
 	char	*new_str;
 	int		j;

@@ -6,7 +6,7 @@
 /*   By: pda-roch <pda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 13:13:47 by pda-roch          #+#    #+#             */
-/*   Updated: 2024/04/26 18:01:57 by pda-roch         ###   ########.fr       */
+/*   Updated: 2024/05/17 18:17:13 by pda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int main(void)
-{
-	char c = '1';
-
-	printf("is c an ""alnum""? 1 if yes, 0 if no: %i\n", ft_isalnum(c));
-
-	return(0);
-}
-*/

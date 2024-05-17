@@ -6,7 +6,7 @@
 /*   By: pda-roch <pda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/09 13:21:41 by pda-roch          #+#    #+#             */
-/*   Updated: 2024/04/26 18:02:04 by pda-roch         ###   ########.fr       */
+/*   Updated: 2024/05/17 18:17:20 by pda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int main(void)
-{
-	int c = 128;
-
-	printf("is c in the ascii table? 1 if yes, 0 if no: %i\n", ft_isascii(c));
-
-	return(0);
-}
-*/

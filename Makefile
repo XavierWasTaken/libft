@@ -6,7 +6,7 @@
 #    By: pda-roch <pda-roch@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/15 12:44:08 by pda-roch          #+#    #+#              #
-#    Updated: 2024/05/13 20:10:08 by pda-roch         ###   ########.fr        #
+#    Updated: 2024/05/17 18:20:16 by pda-roch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -55,9 +55,9 @@ fclean: clean
 re: fclean all
 
 # Phony targets
-.PHONY: all bonus clean fclean re 
+.PHONY: all bonus clean fclean re
 
-#unit-test REMOVE WHEN TURNING IN ALSO REMOVE libft.so
+#libft-unit-test
 so:
 	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRCS) $(SRCS_B)
 	$(CC) -nostartfiles -shared -o libft.so $(OBJS) $(OBJS_B)
