@@ -6,7 +6,7 @@
 /*   By: pda-roch <pda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 14:45:13 by pda-roch          #+#    #+#             */
-/*   Updated: 2024/05/17 18:19:09 by pda-roch         ###   ########.fr       */
+/*   Updated: 2024/05/17 18:24:36 by pda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,4 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
-

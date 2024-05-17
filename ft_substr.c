@@ -6,13 +6,14 @@
 /*   By: pda-roch <pda-roch@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/22 13:18:58 by pda-roch          #+#    #+#             */
-/*   Updated: 2024/05/17 17:32:27 by pda-roch         ###   ########.fr       */
+/*   Updated: 2024/05/17 18:44:52 by pda-roch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	make_str(char *new_str, char const *s, unsigned int start, size_t len)
+static void	make_str(char *new_str, char const *s,
+				unsigned int start, size_t len)
 {
 	size_t	i;
 	size_t	j;
